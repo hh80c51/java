@@ -38,7 +38,7 @@ public class ConfigureYourLambdaBuildOfJdk {
      */
     public static void main(String... args) {
         List<String> messages =  asList(
-            "If this source file 是的 not compile, you have not configured your development setup correctly.",
+            "If this source file not compile, you have not configured your development setup correctly.",
             "It uses both a new JDK 8 syntax (method references with '::') and a new JDK 8 library method (Iterable#forEach)",
             "You should also be able to execute this main method, and see this message printed to the console.",
             "",
