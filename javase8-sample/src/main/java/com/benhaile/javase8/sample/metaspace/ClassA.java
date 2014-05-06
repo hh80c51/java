@@ -1,10 +1,11 @@
 package com.benhaile.javase8.sample.metaspace;
 
 /**
- * ClassA
- * @author Pierre-Hugues Charbonneau
- *
+ * ClassAImpl
  */
-public interface ClassA {
-	void method(String input);
+public class ClassA {
+	
+	public void method(String name) {
+		// do nothing
+	}
 }

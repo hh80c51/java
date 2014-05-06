@@ -24,6 +24,8 @@ package com.benhaile.javase8.sample.setupcheck;
 
 import java.util.List;
 import static java.util.Arrays.asList;
+import java.util.Collections;
+import java.util.function.Predicate;
 
 /**
  * Utility class to warn users if they have an incorrect environment

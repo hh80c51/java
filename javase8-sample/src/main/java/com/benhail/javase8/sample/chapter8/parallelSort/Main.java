@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.benhail.javase8.sample.chapter8;
+package com.benhail.javase8.sample.chapter8.parallelSort;
 
 /**
  *

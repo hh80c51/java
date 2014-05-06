@@ -43,9 +43,12 @@ package com.benhaile.javase8.sample.chapter2;
  *
  * @author benhail
  */
-public class C implements B,A{
+public class C implements A{
    
-    
+    @Override
+    public void hello(){
+        A.super.hello();
+    }
     
     public static void main(String[] args){
         new C().hello();

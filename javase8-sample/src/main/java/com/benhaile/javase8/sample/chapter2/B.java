@@ -44,6 +44,7 @@ package com.benhaile.javase8.sample.chapter2;
  * @author benhail
  */
 public interface B extends A{
+    @Override
     default void hello(){
         System.out.println("Hello World from B");
     }

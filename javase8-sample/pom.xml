@@ -2,13 +2,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.foreveross</groupId>
+    <groupId>com.benhaile</groupId>
     <artifactId>javase8-sample</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>javase8-sample</name>
-    <description>Tutorial to about javase8</description>
+    <description>javase8新特性探究</description>
     <url>http://git.oschina.net/benhail/javase8-sample</url>
     <inceptionYear>2013</inceptionYear>
 
@@ -70,24 +70,6 @@
                 <version>4.11</version>
                 <scope>test</scope>
             </dependency>
-            <dependency>
-                <groupId>org.hamcrest</groupId>
-                <artifactId>hamcrest-core</artifactId>
-                <version>1.3</version>
-                <scope>test</scope>
-            </dependency>
-            <dependency>
-                <groupId>org.hamcrest</groupId>
-                <artifactId>hamcrest-library</artifactId>
-                <version>1.3</version>
-                <scope>test</scope>
-            </dependency>
-            <dependency>
-                <groupId>org.ow2.asm</groupId>
-                <artifactId>asm-debug-all</artifactId>
-                <version>5.0_ALPHA</version>
-                <scope>test</scope>
-            </dependency>
         </dependencies>
     </dependencyManagement>
 
@@ -96,22 +78,8 @@
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
         </dependency>
-        <dependency>
-            <groupId>org.hamcrest</groupId>
-            <artifactId>hamcrest-core</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.hamcrest</groupId>
-            <artifactId>hamcrest-library</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.ow2.asm</groupId>
-            <artifactId>asm-debug-all</artifactId>
-        </dependency>
     </dependencies>
-
-
-<build>
+    <build>
         <testResources>
             <testResource>
                 <directory>src/test/resources</directory>
@@ -155,9 +123,9 @@
                     <version>2.7</version>
                 </plugin>
                 <plugin>
-                     <groupId>org.apache.maven.plugins</groupId>
-                     <artifactId>maven-failsafe-plugin</artifactId>
-                     <version>2.14.1</version>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-failsafe-plugin</artifactId>
+                    <version>2.14.1</version>
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
@@ -334,10 +302,10 @@
         </plugins>
     </build>
 
-<scm>
-    <developerConnection>scm:git:git@git.oschina.net/benhail/javase8-sample.git</developerConnection>
-    <url>https://git.oschina.net/benhail/javase8-sample.git</url>
-    <tag>HEAD</tag>
-</scm>
+    <scm>
+        <developerConnection>scm:git:git@git.oschina.net/benhail/javase8-sample.git</developerConnection>
+        <url>https://git.oschina.net/benhail/javase8-sample.git</url>
+        <tag>HEAD</tag>
+    </scm>
 
 </project>
