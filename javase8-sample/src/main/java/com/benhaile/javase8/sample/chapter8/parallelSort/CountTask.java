@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.benhail.javase8.sample.chapter8.parallelSort;
+package com.benhaile.javase8.sample.chapter8.parallelSort;
 
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ForkJoinPool;

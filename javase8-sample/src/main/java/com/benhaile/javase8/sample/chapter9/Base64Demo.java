@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.benhail.javase8.sample.chapter9;
+package com.benhaile.javase8.sample.chapter9;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;

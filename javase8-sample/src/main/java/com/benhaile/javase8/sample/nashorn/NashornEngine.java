@@ -13,26 +13,27 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
-package com.benhail.javase8.sample.chapter10.time;
-
-import java.time.Clock;
-import java.time.Instant;
-import java.time.ZoneId;
+package com.benhaile.javase8.sample.nashorn;
 
 /**
  *
  * @author benhail
  */
-public class InstantDemo {
+import javax.script.*;
+
+public class NashornEngine {
+
     public static void main(String[] args) {
-        Clock clock=Clock.system(ZoneId.of("Asia/Shanghai"));
-        System.out.println(clock);
-        Instant instant=Instant.now(clock);
-        System.out.println(instant);
+        ScriptEngineManager m = new ScriptEngineManager();
+        ScriptEngine e = m.getEngineByName("nashorn");
+        try {
+            e.put("x", 10);
+            e.put("y", 20);
+            e.eval("var z = x+ y;");
+            System.out.println(((Number) e.get("z")).intValue());
+        } catch (final ScriptException ex) {
+            System.err.println(ex);
+        }
     }
-    
-    public static void compareDays(Instant day1,Instant day2){
-        
-    }
+
 }

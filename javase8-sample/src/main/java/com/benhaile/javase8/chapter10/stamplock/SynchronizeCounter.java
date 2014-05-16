@@ -13,27 +13,25 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.benhail.javase8.sample.nashorn;
+
+package com.benhaile.javase8.chapter10.stamplock;
 
 /**
  *
  * @author benhail
  */
-import javax.script.*;
+public class SynchronizeCounter implements Counter{
 
-public class NashornEngine {
-
-    public static void main(String[] args) {
-        ScriptEngineManager m = new ScriptEngineManager();
-        ScriptEngine e = m.getEngineByName("nashorn");
-        try {
-            e.put("x", 10);
-            e.put("y", 20);
-            e.eval("var z = x+ y;");
-            System.out.println(((Number) e.get("z")).intValue());
-        } catch (final ScriptException ex) {
-            System.err.println(ex);
-        }
+    private long count=0;
+    
+    @Override
+    public long getValue() {
+        return count;
     }
 
+    @Override
+    public synchronized void increment() {
+        count++; 
+    }
+    
 }

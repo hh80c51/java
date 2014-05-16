@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.benhail.javase8.sample.chapter10.time;
+package com.benhaile.javase8.sample.chapter10.time;
 
 import java.text.DateFormat;
 import java.time.DayOfWeek;
