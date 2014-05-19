@@ -1,7 +1,10 @@
-/.idea/       表示过滤这个文件夹
+
+
 *.class
 
 # Package Files #
 *.jar
 *.war
 *.ear
+*.iml
+.idea/

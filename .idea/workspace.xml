@@ -2,75 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cec73b70-b902-410a-9bc2-08fcb1a77a02" name="Default" comment="减少pom的内容">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/javase8sample/chapter2/defaultmethod/Clazz.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/javase8sample/chapter3/stream/Dish.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/javase8sample/chapter4/typeAnnotation/GetStarted.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/javase8sample/chapter10/stampedLock/Point.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/javase8sample/chapter8/compactprofile/ProfilesTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/javase8sample/chapter3/stream/StreamBasic.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/javase8sample/chapter1/lambda/TestLambda.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/javase8sample/chapter1/lambda/TestMethodReference.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="DELETED" beforePath="E:\mycodeSpace\idea\java8-sample\javase8-sample\src\main\java\com\benhaile\javase8\chapter10\stamplock\ArrayList.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\mycodeSpace\idea\java8-sample\javase8-sample\src\main\java\com\benhaile\javase8\chapter10\stamplock\ArrayListDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\mycodeSpace\idea\java8-sample\javase8-sample\src\main\java\com\benhaile\javase8\chapter10\stamplock\Counter.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\mycodeSpace\idea\java8-sample\javase8-sample\src\main\java\com\benhaile\javase8\chapter10\stamplock\IBankAccount.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\mycodeSpace\idea\java8-sample\javase8-sample\src\main\java\com\benhaile\javase8\chapter10\stamplock\LockFreeSpaceship.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\mycodeSpace\idea\java8-sample\javase8-sample\src\main\java\com\benhaile\javase8\chapter10\stamplock\NoLockBankAccount.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\mycodeSpace\idea\java8-sample\javase8-sample\src\main\java\com\benhaile\javase8\chapter10\stamplock\PerfTest.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\mycodeSpace\idea\java8-sample\javase8-sample\src\main\java\com\benhaile\javase8\chapter10\stamplock\ReadWriteLockSpaceShip.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\mycodeSpace\idea\java8-sample\javase8-sample\src\main\java\com\benhaile\javase8\chapter10\stamplock\ReentrantLockSpaceship.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\mycodeSpace\idea\java8-sample\javase8-sample\src\main\java\com\benhaile\javase8\chapter10\stamplock\Spaceship.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\mycodeSpace\idea\java8-sample\javase8-sample\src\main\java\com\benhaile\javase8\chapter10\stamplock\StampedLockSpaceship.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\mycodeSpace\idea\java8-sample\javase8-sample\src\main\java\com\benhaile\javase8\chapter10\stamplock\SynchronizeCounter.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\mycodeSpace\idea\java8-sample\javase8-sample\src\main\java\com\benhaile\javase8\chapter10\stamplock\SynchronizedBankAccount.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\mycodeSpace\idea\java8-sample\javase8-sample\src\main\java\com\benhaile\javase8\chapter10\stamplock\SynchronizedSpaceship.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\mycodeSpace\idea\java8-sample\javase8-sample\src\main\java\com\benhaile\javase8\chapter10\stamplock\Test.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\mycodeSpace\idea\java8-sample\javase8-sample\src\main\java\com\benhaile\javase8\chapter10\stamplock\WithdrawError.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\mycodeSpace\idea\java8-sample\javase8-sample\src\main\java\com\benhaile\javase8\chapter10\stamplock\counter\Counter.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\mycodeSpace\idea\java8-sample\javase8-sample\src\main\java\com\benhaile\javase8\chapter10\stamplock\counter\CounterTest.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\mycodeSpace\idea\java8-sample\javase8-sample\src\main\java\com\benhaile\javase8\chapter10\stamplock\counter\ReentrantLockCounter.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\mycodeSpace\idea\java8-sample\javase8-sample\src\main\java\com\benhaile\javase8\chapter10\stamplock\counter\StampedLockCounter.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\mycodeSpace\idea\java8-sample\javase8-sample\src\main\java\com\benhaile\javase8\chapter10\stamplock\counter\SynchronizeCounter.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\mycodeSpace\idea\java8-sample\javase8-sample\src\main\java\com\benhaile\javase8\sample\chapter10\time\InstantDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\mycodeSpace\idea\java8-sample\javase8-sample\src\main\java\com\benhaile\javase8\sample\chapter10\time\LocalDateDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\mycodeSpace\idea\java8-sample\javase8-sample\src\main\java\com\benhaile\javase8\sample\chapter10\time\TimeDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\mycodeSpace\idea\java8-sample\javase8-sample\src\main\java\com\benhaile\javase8\sample\chapter1\Gender.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\mycodeSpace\idea\java8-sample\javase8-sample\src\main\java\com\benhaile\javase8\sample\chapter1\Person.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\mycodeSpace\idea\java8-sample\javase8-sample\src\main\java\com\benhaile\javase8\sample\chapter1\StreamTest.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\mycodeSpace\idea\java8-sample\javase8-sample\src\main\java\com\benhaile\javase8\sample\chapter1\TestLambda.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\mycodeSpace\idea\java8-sample\javase8-sample\src\main\java\com\benhaile\javase8\sample\chapter4\TypeAnnotatsionTest.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\mycodeSpace\idea\java8-sample\javase8-sample\src\main\java\com\benhaile\javase8\sample\chapter8\parallelSort\CountTask.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\mycodeSpace\idea\java8-sample\javase8-sample\src\main\java\com\benhaile\javase8\sample\chapter8\parallelSort\Main.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\mycodeSpace\idea\java8-sample\javase8-sample\src\main\java\com\benhaile\javase8\sample\nashorn\NashornEngine.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MOVED" beforePath="E:\mycodeSpace\idea\java8-sample\javase8-sample\src\main\java\com\benhaile\javase8\sample\chapter10\time\TimeIntroduction.java" afterPath="$PROJECT_DIR$/src/main/java/javase8sample/chapter7/time/TimeIntroduction.java" />
-      <change type="MOVED" beforePath="E:\mycodeSpace\idea\java8-sample\javase8-sample\src\main\java\com\benhaile\javase8\sample\chapter1\NewClass.java" afterPath="$PROJECT_DIR$/src/main/java/javase8sample/chapter3/stream/ParallelStreamTest.java" />
-      <change type="MOVED" beforePath="E:\mycodeSpace\idea\java8-sample\javase8-sample\src\main\java\com\benhaile\javase8\sample\chapter2\A.java" afterPath="$PROJECT_DIR$/src/main/java/javase8sample/chapter2/defaultmethod/A.java" />
-      <change type="MOVED" beforePath="E:\mycodeSpace\idea\java8-sample\javase8-sample\src\main\java\com\benhaile\javase8\sample\chapter2\B.java" afterPath="$PROJECT_DIR$/src/main/java/javase8sample/chapter2/defaultmethod/B.java" />
-      <change type="MOVED" beforePath="E:\mycodeSpace\idea\java8-sample\javase8-sample\src\main\java\com\benhaile\javase8\sample\chapter2\C.java" afterPath="$PROJECT_DIR$/src/main/java/javase8sample/chapter2/defaultmethod/C.java" />
-      <change type="MOVED" beforePath="E:\mycodeSpace\idea\java8-sample\javase8-sample\src\main\java\com\benhaile\javase8\sample\chapter4\Test.java" afterPath="$PROJECT_DIR$/src/main/java/javase8sample/chapter4/typeAnnotation/RuntimeErrorTest.java" />
-      <change type="MOVED" beforePath="E:\mycodeSpace\idea\java8-sample\javase8-sample\src\main\java\com\benhaile\javase8\sample\chapter5\Authorities.java" afterPath="$PROJECT_DIR$/src/main/java/javase8sample/chapter5/repeatAnnotation/Authorities.java" />
-      <change type="MOVED" beforePath="E:\mycodeSpace\idea\java8-sample\javase8-sample\src\main\java\com\benhaile\javase8\sample\chapter5\Authority.java" afterPath="$PROJECT_DIR$/src/main/java/javase8sample/chapter5/repeatAnnotation/Authority.java" />
-      <change type="MOVED" beforePath="E:\mycodeSpace\idea\java8-sample\javase8-sample\src\main\java\com\benhaile\javase8\sample\chapter5\RepeatAnnotationUseNewVersion.java" afterPath="$PROJECT_DIR$/src/main/java/javase8sample/chapter5/repeatAnnotation/RepeatAnnotationUseNewVersion.java" />
-      <change type="MOVED" beforePath="E:\mycodeSpace\idea\java8-sample\javase8-sample\src\main\java\com\benhaile\javase8\sample\chapter5\RepeatAnnotationUseOldVersion.java" afterPath="$PROJECT_DIR$/src/main/java/javase8sample/chapter5/repeatAnnotation/RepeatAnnotationUseOldVersion.java" />
-      <change type="MOVED" beforePath="E:\mycodeSpace\idea\java8-sample\javase8-sample\src\main\java\com\benhaile\javase8\sample\chapter6\GenericDemo.java" afterPath="$PROJECT_DIR$/src/main/java/javase8sample/chapter6/targettype/GenericDemo.java" />
-      <change type="MOVED" beforePath="E:\mycodeSpace\idea\java8-sample\javase8-sample\src\main\java\com\benhaile\javase8\sample\chapter8\parallelSort\ArraysParallelDemo.java" afterPath="$PROJECT_DIR$/src/main/java/javase8sample/chapter12/arraysparallelsort/ArraysParallelDemo.java" />
-      <change type="MOVED" beforePath="E:\mycodeSpace\idea\java8-sample\javase8-sample\src\main\java\com\benhaile\javase8\sample\chapter9\Base64Demo.java" afterPath="$PROJECT_DIR$/src/main/java/javase8sample/chapter11/base64/Base64Demo.java" />
-      <change type="MOVED" beforePath="E:\mycodeSpace\idea\java8-sample\javase8-sample\src\main\java\com\benhaile\javase8\sample\metaspace\ClassA.java" afterPath="$PROJECT_DIR$/src/main/java/javase8sample/chapter9/metaspace/ClassA.java" />
-      <change type="MOVED" beforePath="E:\mycodeSpace\idea\java8-sample\javase8-sample\src\main\java\com\benhaile\javase8\sample\metaspace\ClassAInvocationHandler.java" afterPath="$PROJECT_DIR$/src/main/java/javase8sample/chapter9/metaspace/ClassAInvocationHandler.java" />
-      <change type="MOVED" beforePath="E:\mycodeSpace\idea\java8-sample\javase8-sample\src\main\java\com\benhaile\javase8\sample\metaspace\OOMTest.java" afterPath="$PROJECT_DIR$/src/main/java/javase8sample/chapter9/metaspace/OOMTest.java" />
-      <change type="MOVED" beforePath="E:\mycodeSpace\idea\java8-sample\javase8-sample\src\main\java\com\benhaile\javase8\sample\setupcheck\ConfigureYourLambdaBuildOfJdk.java" afterPath="$PROJECT_DIR$/src/main/java/javase8sample/setupcheck/ConfigureYourLambdaBuildOfJdk.java" />
-    </list>
-    <list id="43d31b9d-da78-4b16-9b38-de1b41bea168" name="New changelist" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
+    <list id="43d31b9d-da78-4b16-9b38-de1b41bea168" name="New changelist" comment="" />
     <ignored path="javase8-sample.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -96,7 +32,40 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.33417085" vertical-offset="0" max-vertical-offset="398">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workspace.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="912" max-vertical-offset="22401">
+              <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="1007">
+              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Base64Demo.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/javase8sample/chapter11/base64/Base64Demo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="704" max-vertical-offset="1482">
+              <caret line="66" column="78" selection-start-line="66" selection-start-column="78" selection-end-line="66" selection-end-column="78" />
               <folding />
             </state>
           </provider>
@@ -120,7 +89,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/benhaile/javase8/chapter1/TestLambda.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/benhaile/javase8/chapter1/lambda/TestLambda.java" />
         <option value="$PROJECT_DIR$/src/main/java/javase8sample/setupcheck/ConfigureYourLambdaBuildOfJdk.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/javase8sample/chapter1/lambda/TestMethodReference.java" />
         <option value="$PROJECT_DIR$/src/main/java/javase8sample/chapter2/defaultmethod/A.java" />
         <option value="$PROJECT_DIR$/src/main/java/javase8sample/chapter2/defaultmethod/Clazz.java" />
@@ -140,6 +108,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/benhaile/javase8/chapter10/stamplock/counter/CounterTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/javase8sample/chapter11/base64/Base64Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/javase8sample/chapter12/arraysparallelsort/ArraysParallelDemo.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
@@ -249,6 +219,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="javase8-sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javase8-sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javase8-sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -697,7 +689,7 @@
       <workItem from="1400234790876" duration="126000" />
       <workItem from="1400318952205" duration="731000" />
       <workItem from="1400459547328" duration="3033000" />
-      <workItem from="1400464077254" duration="7829000" />
+      <workItem from="1400464077254" duration="9048000" />
     </task>
     <task id="LOCAL-00001" summary="更新readme">
       <created>1400228383510</created>
@@ -711,7 +703,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18976000" />
+    <option name="totallyTimeSpent" value="20195000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
@@ -720,6 +712,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32861635" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -735,10 +728,9 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32861635" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -923,17 +915,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.178572" vertical-offset="399" max-vertical-offset="798">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/javase8sample/chapter3/stream/ParallelStreamTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="158" max-vertical-offset="532">
@@ -1048,14 +1029,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/javase8sample/chapter11/base64/Base64Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1482">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/javase8sample/chapter12/arraysparallelsort/ArraysParallelDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="484" max-vertical-offset="1292">
@@ -1064,10 +1037,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/buff-base64.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="385">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="1007">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/javase8sample/chapter11/base64/Base64Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="704" max-vertical-offset="1482">
+          <caret line="66" column="78" selection-start-line="66" selection-start-column="78" selection-end-line="66" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="912" max-vertical-offset="22382">
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33417085" vertical-offset="0" max-vertical-offset="398">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
           <folding />
         </state>
       </provider>
