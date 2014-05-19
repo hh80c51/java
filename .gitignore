@@ -8,3 +8,5 @@
 *.ear
 *.iml
 .idea/
+
+.gitignore
