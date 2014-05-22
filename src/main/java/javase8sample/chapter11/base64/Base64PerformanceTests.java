@@ -1,4 +1,4 @@
-package javase8sample.chapter12.base64;
+package javase8sample.chapter11.base64;
 
 import com.google.common.io.BaseEncoding;
 import sun.misc.BASE64Decoder;
@@ -24,7 +24,7 @@ public class Base64PerformanceTests {
 //        System.exit(0);
 
         //bytes
-        Map<Integer, Map<String, TestResult>> results = new HashMap<>( 2 );
+        Map<Integer, Map<String, TestResult>> results = new HashMap<Integer, Map<String, TestResult>>( 2 );
         results.put(100, testBytes(100));
         results.put(1000, testBytes(1000));
         results.put(TOTAL_BUFFER_SIZE, testBytes(TOTAL_BUFFER_SIZE));
@@ -32,7 +32,7 @@ public class Base64PerformanceTests {
         System.out.println( formatResults( results ) );
 
         //string
-        results = new HashMap<>( 2 );
+        results = new HashMap<Integer, Map<String, TestResult>>( 2 );
         results.put(100, testString(100));
         results.put(1000, testString(1000));
         results.put(TOTAL_BUFFER_SIZE, testString(TOTAL_BUFFER_SIZE));
