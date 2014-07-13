@@ -26,6 +26,8 @@ Chapter 10: StampedLock将是解决同步问题的新宠
 
 Chapter 11: Base64详解
 
+Chapter 12: Nashorn：新犀牛
+
 持续更新中!
 
 #JDK8环境
