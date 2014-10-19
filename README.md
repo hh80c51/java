@@ -28,6 +28,8 @@ Chapter 11: Base64详解
 
 Chapter 12: Nashorn：新犀牛
 
+Chapter 13: JavaFX 8新特性以及2048游戏
+
 持续更新中!
 
 #JDK8环境
