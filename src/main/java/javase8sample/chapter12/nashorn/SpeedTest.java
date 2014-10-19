@@ -48,7 +48,7 @@ public class SpeedTest {
 
     static void nashorn(String parser, String code) throws ScriptException,NoSuchMethodException {
         ScriptEngineManager factory = new ScriptEngineManager();
-        ScriptEngine engine = factory.getEngineByName("nashorn");
+        ScriptEngine engine = factory.getEngineByName("javafx8");
 
         engine.eval(parser);
         Invocable inv = (Invocable) engine;
@@ -68,8 +68,8 @@ public class SpeedTest {
 
     public static void main(String[] args) {
         try {
-            String parser = readFile("E:\\mycodeSpace\\idea\\java8-sample\\javase8-sample\\src\\main\\resources\\javase8sample\\chapter12\\nashorn\\esprima.js");
-            String code = readFile("E:\\mycodeSpace\\idea\\java8-sample\\javase8-sample\\src\\main\\resources\\javase8sample\\chapter12\\nashorn\\jquery.js");
+            String parser = readFile("E:\\mycodeSpace\\idea\\java8-sample\\javase8-sample\\src\\main\\resources\\javase8sample\\chapter12\\javafx8\\esprima.js");
+            String code = readFile("E:\\mycodeSpace\\idea\\java8-sample\\javase8-sample\\src\\main\\resources\\javase8sample\\chapter12\\javafx8\\jquery.js");
             System.out.println("Test code: " + code.length() + " bytes.");
             System.out.println();
             System.out.println("== Rhino ==");

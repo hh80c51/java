@@ -8,15 +8,15 @@ import java.time.LocalDateTime;
 import java.util.Date;
 
 /**
- * Calling javascript functions from java with nashorn.
+ * Calling javascript functions from java with javafx8.
  *
  * @author Benjamin Winterberg
  */
 public class Nashorn1 {
 
     public static void main(String[] args) throws Exception {
-        ScriptEngine engine = new ScriptEngineManager().getEngineByName("nashorn");
-        engine.eval(new FileReader("E:\\mycodeSpace\\idea\\java8-sample\\javase8-sample\\src\\main\\resources\\javase8sample\\chapter12\\nashorn\\nashorn1.js"));
+        ScriptEngine engine = new ScriptEngineManager().getEngineByName("nashorn1");
+        engine.eval(new FileReader("javase8sample/chapter12/nashorn/nashorn1.js"));
 
         Invocable invocable = (Invocable) engine;
         Object result = invocable.invokeFunction("fun1", "Peter Parker");

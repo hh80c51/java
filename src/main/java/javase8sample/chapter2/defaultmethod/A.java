@@ -22,6 +22,7 @@ package javase8sample.chapter2.defaultmethod;
  * @author benhail
  */
 public interface A {
+    String d="dds";
     default void hello(){
         System.out.println("Hello World from A");
     }

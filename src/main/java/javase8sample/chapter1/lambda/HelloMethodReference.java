@@ -7,7 +7,7 @@ import java.awt.event.ActionEvent;
 /**
  * Created by benhail on 2014/5/19.
  */
-public class TestMethodReference {
+public class HelloMethodReference {
 
     public static void main(String[] args) {
 
@@ -24,7 +24,7 @@ public class TestMethodReference {
         //使用lambda表达式方式
         button1.addActionListener(e -> { System.out.println("这里是Lambda实现方式"); });
         //使用方法引用方式
-        button2.addActionListener(TestMethodReference::doSomething);
+        button2.addActionListener(HelloMethodReference::doSomething);
 
     }
     /**

@@ -5,7 +5,7 @@ package javase8sample.chapter1.lambda;
  *
  * @author benhail
  */
-public class TestLambda {
+public class HelloLambda {
 
     public static void runThreadUseLambda() {
         //Runnable是一个函数接口，只包含了有个无参数的，返回void的run方法；
@@ -24,7 +24,7 @@ public class TestLambda {
     }
 
     public static void main(String[] args) {
-        TestLambda.runThreadUseLambda();
-        TestLambda.runThreadUseInnerClass();
+        HelloLambda.runThreadUseLambda();
+        HelloLambda.runThreadUseInnerClass();
     }
 }
